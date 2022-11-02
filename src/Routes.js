@@ -11,7 +11,7 @@ export default function AppRoutes(){
     return(
         <div>
             <Routes>
-                <Route path="/" element={<Home/>} />
+                <Route path="https://petermyer.github.io/" element={<Home/>} />
                 <Route path="https://petermyer.github.io/about" element={<About/>} />
                 {/* <Route path="/BookIt" element={<BookItProjectPage/>} />
                 <Route path="/byte" element={<ByteProjectPage/>} /> */}
