@@ -119,3 +119,13 @@
 .github-link{
   color: grey
 }
+
+main{
+  display: flex;
+  flex-direction: column;
+  min-height: 78vh
+}
+
+.footer-component{
+  margin-top: auto;
+}

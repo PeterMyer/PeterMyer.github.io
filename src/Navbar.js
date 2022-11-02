@@ -18,13 +18,13 @@ export default function NavBar(){
                 </li> */}
                 <li className = "nav-item">
                     <strong>
-                        <a className="nav-link" href="/Projects">Projects</a>
+                        <a className="nav-link" href="#/projects">Projects</a>
                     </strong>
                 </li>
 
                 <li className = "nav-item">
                     <strong>
-                        <a className="nav-link" href="/About">About</a>
+                        <a className="nav-link" href="#/about">About</a>
                     </strong>
                 </li>
             </ul>

@@ -11,8 +11,8 @@ function App() {
       </header>
       <main className='container-fluid'>
         <AppRoutes/>
-        <Footer/>
       </main>
+      <Footer className="footer-component"/>
     </div>
   );
 }

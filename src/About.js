@@ -4,9 +4,9 @@ export default function About(){
     return (
         <div className="container-fluid row">
         <div className ="col">
-            <h2>About</h2>
-            <hr></hr>
-        <div className="container ">
+            {/* <h2>About</h2>
+            <hr></hr> */}
+        <div className="container mt-5">
             <div className = "col ">
                 <div className = "row text-center">
                 <ul className="col about-me-list">
