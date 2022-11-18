@@ -88,6 +88,7 @@
 
 .profile-image{
   border-radius: 50%;
+  min-width: 200px;
 }
 
 .profile-image_large{
@@ -95,6 +96,7 @@
   height:120vw;
   max-height: 850px;
   min-width: 300px;
+  max-width: 490px;
 }
 
 .text-highlight{
