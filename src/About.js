@@ -47,7 +47,7 @@ export default function About(){
         </div>
         </div>
         <div className = "col d-flex flex-row-reverse">
-            <img className="profile-image_large " src="Hike_Profile2.png" alt="profile_pic"/>
+            <img className="profile-image_large " src="Hike_Profile2.png" alt="profile_pic" loading='lazy'/>
         </div>
     </div>
     )

@@ -6,7 +6,7 @@ export default function Home(){
         <div className="jumbotron jumbotron-fluid">
             <div className = "container row d-flex align-items-center ">
                 <div className = "col p-5 text-center " >
-                    <img className="img-fluid profile-image" src="profile.jpeg" alt="profile_pic" width = "300"/>
+                    <img className="img-fluid profile-image" src="profile.jpeg" alt="profile_pic" width = "300" loading="lazy"/>
                 </div>
                 <div className = "col p-5   ">
                     <h1 className ="display-3">Hi, I'm <strong><span className="text-highlight">Peter Myer</span></strong></h1>
