@@ -1,5 +1,6 @@
 import React from "react";
 import Profile from './About'
+import CssLoader from "./CssLoader";
 
 export default function Home(){
     return(

@@ -1,11 +1,13 @@
-import React from "react"
+import {useState} from "react"
+import CssLoader from "./CssLoader";
+
 
 export default function About(){
+    const [loading, setLoading] = useState(true);
+
     return (
         <div className="container-fluid row">
         <div className ="col">
-            {/* <h2>About</h2>
-            <hr></hr> */}
         <div className="container mt-5">
             <div className = "col ">
                 <div className = "row text-center">
@@ -34,7 +36,7 @@ export default function About(){
                             <i class="about-icon fa-solid fa-seedling fa-2xl"></i>
                             </div>
                             <p>I'm passionate about projects that help people engage in self-improvement and personal growth.
-                            I'm especially curious online platforms for education, skill development and habit building</p>
+                            I'm especially curious online platforms for education, skill development and habit building.</p>
                         </div>
                         <div className="container d-flex align-items-center">
                             <div className="me-3">
@@ -47,7 +49,18 @@ export default function About(){
         </div>
         </div>
         <div className = "col d-flex flex-row-reverse">
-            <img className="profile-image_large " src="Hike_Profile2.png" alt="profile_pic" loading='lazy'/>
+            <div 
+                className = "lds-ring-container" 
+                style={{display: loading ? "block" : "none"}}>
+                    <CssLoader/>
+            </div>
+                <img 
+                    id="about_profile_image" 
+                    className="profile-image_large " 
+                    src="Hike_Profile2.png" 
+                    alt="profile_pic" 
+                    onLoad={() => setLoading(false)} 
+                    style={{display: loading ? "none" : "block"}}/>
         </div>
     </div>
     )
